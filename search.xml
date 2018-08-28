@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[用hexo和GitHub搭建个人博客]]></title>
+    <url>%2F2018%2F08%2F27%2F%E7%94%A8hexo%E5%92%8CGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[用Hexo和GitHub搭建个人博客 （免费）前几天心血来潮决定搭建一个个人博客，便在网上四处寻找秘籍，遇到了很多的问题，还好最终我还是成功了。 要搭建一个基于Hexo和GitHub的个人博客，你可能需要了解一下什么是Hexo 点击这里 ，搭建之前，我建议你先新建一个独立的文件夹用于存储你的blog相关配置文件，我新建的文件夹叫blog，然后你需要安装几个重要的东西 ：（由于我用的是Windows，那么我的经验可能仅限于Windows） 1.git 点击下载 2.node.js 点击下载 由于hexo是基于node.js的，所以需要安装。 在安装git时，注意勾选 Windows Explorer integration，以便后面使用 当git以及node.js安装完毕之后，就需要对Hexo进行安装和初始化 Hexo安装 在你的blog文件夹中点击鼠标右键，如果你的git安装的没有问题，那么你可以看到以下内容 点击Git Bash Here 以打开命令行 1npm install -g hexo-cli 这一步可能会花一点时间，所以安装时耐心一点。 当输入 hexo -v 出现以下内容时就算安装成功了 然后你可以输入 1hexo init 以初始化博客空间。接着需要安装一些必要的文件，接着输入 1npm install 你的文件夹就大概是这个样子 之后你可以继续输入 1hexo generate 可简写为 hexo g 用于生成 1hexo server 可简写为 hexo s 用于启动服务预览，然后你看到的内容大概是这样的 接着，你便可以通过 http://localhost:4000/ 访问你的初始化界面，大概长这样 当然这个主题你之后可以换。 这个时候，你的Hexo本地环境已经ok了，接着你需要将你的博客与你的GitHub相连接，你不可能仅仅只通过localhost访问啊。所以，你需要有一个GitHub账号，如果没有就去注册一个。 然后登入你的GitHub，你需要建立一个新的repository. 点击那个绿色的按钮然后会出现以下页面 记住，你的repository name 一定要是 ： 你的用户名.github.io我这儿报错是因为我已经建立好了，已经存在了一个与之相同的repository。填完之后点击Create repository即可。 远程部署进入blog文件夹，Git Bash here 输入 1npm install hexo-deployer-git --save 用于git的部署。 然后打开你blog文件夹下的_config.yml 文件（建议使用sublime text 打开） 找到以下内容： 准确的来说你那里可能只能看到deploy ，因此你需要加入一下，在repository后，你需要写：https：//github.com/用户名/用户名.github.io.git 当然你也可以通过图上所描述的那样，只需将两处***改为你的用户名即可，但那样你需要添加ssh密匙，这是关于github运用的，你可以自己学一下，我这里就只说这一种方法。 如果出现以下情况 这是 证书的问题，你只需要打开Git Bash here 输入 1git config --system http.sslverify false 关闭其对证书的校验。这也是当时困扰我很久的问题，多谢好心人，附上地址https://blog.csdn.net/u012400885/article/details/77659353 这样，你就可以通过https://用户名.github.io 访问你的博客了。]]></content>
+      <categories>
+        <category>小技术</category>
+      </categories>
+      <tags>
+        <tag>个人博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[feeling]]></title>
+    <url>%2F2018%2F08%2F24%2Ffeeling%2F</url>
+    <content type="text"><![CDATA[亲情至上将博客搭起来的第二天，我接到了姐姐发的微信“我今天不上班”，因为之前说好的我会去他家玩。于是便放下手中的事情去了她家。到了她家我似乎是一个客人的身份，姐姐似乎不再想要喊我做事情，这让我有些不习惯，因此我常常会主动地去帮忙，虽然我做的事情比较低级，没有给她多大实质性的帮助，但只依然不能降低我的热情。这让我自己都觉得不可思议，毕竟在家里我母亲很少能让我去帮她做一件事，而且是出于心甘情愿的。我姐只休一天假，也就是说在接下来的时间里我可能会很无聊，的确如此，但好在我姐夫最近在家，于是我和他一起去山间看风景，避暑纳凉。带着相机寻找山间的美景。也就是如此，一天的时间就很快被消耗殆尽了。 如果说我介意前给我的印象是刁蛮任性，那现在就是一副贤妻良母的形象，如果非要说是什么促使了这样的转变我觉得会是 —-孩子，从我姐有了孩子以后她慢慢变得与以前有很大的不同，她变得杞人忧天了，变得做一起事情有了一个明确的目标了，变得生活从此一孩子为中心。与似乎我发现，她从一个姐姐变成了一位母亲。 我没能在姐姐家再呆下去，因为我感觉很无聊，又有一些的不适，即使我一进去过他家很多很多次，但就是感觉不对，这或许就是我们不想长大的真正原因。我很早便给姐发了讯息，告诉他我会马上回家，然后与姐夫道别我便前往车站坐车回家。 我有一个习惯，就是习惯给亲近的人发很小额红包(其实是穷)，于是我像往常一样给我姐发了两分钱，没过多久她便又回了我一个红包，还一直强调着“快把你的两分钱给我领回去”，说实话我听不情愿的，因为她肯定回了一个大红包，即使如此我还是将红包收下了，这一种感觉就是很贴心，很让人感动，慢慢的我也就懂得了，其实这世上的一切一切，亲情至上。]]></content>
+      <categories>
+        <category>心情</category>
+      </categories>
+      <tags>
+        <tag>日常发文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我的第一篇blog]]></title>
+    <url>%2F2018%2F08%2F24%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog%2F</url>
+    <content type="text"><![CDATA[没事时多试试作为一名计算机学院的学生，我总感觉自己挺失败的，大学已过一年，但是我仿佛并未学到多少，程序语言就学了个C，而且还没有学的有多好，说实在的，挺伤心。 于是我便无聊到决定弄一个自己的博客，我好像有点烦啊。好吧，不在唠叨了。 就这样吧。 hello world]]></content>
+      <categories>
+        <category>心情</category>
+      </categories>
+      <tags>
+        <tag>日常发文</tag>
+      </tags>
+  </entry>
+</search>

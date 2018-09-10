@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[daily 1]]></title>
+    <url>%2F2018%2F09%2F10%2Fdaily-1%2F</url>
+    <content type="text"><![CDATA[daily 1在这个学期开始之前，我决定要努力学习前端知识。到校的前两天我看完了css以及html 按道理，我现在需要学习JavaScript，在学习当中我发现，其实就JavaScript来看，其本身比较像c 又有一些Java的影子。总的来讲，难度不大，但是对于面向对象那方面我觉得仍就有一些不够清楚。 然后就是如何将JavaScript中的通用语言记得牢靠也是一个大问题，总之还有很多方面需要努力。 记一记JavaScript的通用以及基础的语法 点击一下 说一说今天的心情：我不喜欢别人命令我，哪怕是最亲近的人也不好。]]></content>
+      <categories>
+        <category>心情</category>
+      </categories>
+      <tags>
+        <tag>日常发文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[用hexo和GitHub搭建个人博客]]></title>
     <url>%2F2018%2F08%2F27%2F%E7%94%A8hexo%E5%92%8CGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
     <content type="text"><![CDATA[用Hexo和GitHub搭建个人博客 （免费）前几天心血来潮决定搭建一个个人博客，便在网上四处寻找秘籍，遇到了很多的问题，还好最终我还是成功了。 要搭建一个基于Hexo和GitHub的个人博客，你可能需要了解一下什么是Hexo 点击这里 ，搭建之前，我建议你先新建一个独立的文件夹用于存储你的blog相关配置文件，我新建的文件夹叫blog，然后你需要安装几个重要的东西 ：（由于我用的是Windows，那么我的经验可能仅限于Windows） 1.git 点击下载 2.node.js 点击下载 由于hexo是基于node.js的，所以需要安装。 在安装git时，注意勾选 Windows Explorer integration，以便后面使用 当git以及node.js安装完毕之后，就需要对Hexo进行安装和初始化 Hexo安装 在你的blog文件夹中点击鼠标右键，如果你的git安装的没有问题，那么你可以看到以下内容 点击Git Bash Here 以打开命令行 1npm install -g hexo-cli 这一步可能会花一点时间，所以安装时耐心一点。 当输入 hexo -v 出现以下内容时就算安装成功了 然后你可以输入 1hexo init 以初始化博客空间。接着需要安装一些必要的文件，接着输入 1npm install 你的文件夹就大概是这个样子 之后你可以继续输入 1hexo generate 可简写为 hexo g 用于生成 1hexo server 可简写为 hexo s 用于启动服务预览，然后你看到的内容大概是这样的 接着，你便可以通过 http://localhost:4000/ 访问你的初始化界面，大概长这样 当然这个主题你之后可以换。 这个时候，你的Hexo本地环境已经ok了，接着你需要将你的博客与你的GitHub相连接，你不可能仅仅只通过localhost访问啊。所以，你需要有一个GitHub账号，如果没有就去注册一个。 然后登入你的GitHub，你需要建立一个新的repository. 点击那个绿色的按钮然后会出现以下页面 记住，你的repository name 一定要是 ： 你的用户名.github.io我这儿报错是因为我已经建立好了，已经存在了一个与之相同的repository。填完之后点击Create repository即可。 远程部署进入blog文件夹，Git Bash here 输入 1npm install hexo-deployer-git --save 用于git的部署。 然后打开你blog文件夹下的_config.yml 文件（建议使用sublime text 打开） 找到以下内容： 准确的来说你那里可能只能看到deploy ，因此你需要加入一下，在repository后，你需要写：https：//github.com/用户名/用户名.github.io.git 当然你也可以通过图上所描述的那样，只需将两处***改为你的用户名即可，但那样你需要添加ssh密匙，这是关于github运用的，你可以自己学一下，我这里就只说这一种方法。 如果出现以下情况 这是 证书的问题，你只需要打开Git Bash here 输入 1git config --system http.sslverify false 关闭其对证书的校验。这也是当时困扰我很久的问题，多谢好心人，附上地址https://blog.csdn.net/u012400885/article/details/77659353 这样，你就可以通过https://用户名.github.io 访问你的博客了。]]></content>

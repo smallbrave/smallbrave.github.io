@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://smallbrave.github.io/2018/08/27/%E7%94%A8hexo%E5%92%8CGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2018-09-10T14:58:39.342Z</lastmod>
+    <data>
+        <display>
+        <title>用hexo和GitHub搭建个人博客</title>
+        <pubTime>2018-08-27T07:29:33.000Z</pubTime>
+        
+        <tag>个人博客</tag>
+         
+         
+           
+             
+              <breadCrumb title="小技术" url="https://smallbrave.github.io/categories/%E5%B0%8F%E6%8A%80%E6%9C%AF/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://smallbrave.github.io/2018/08/24/feeling/</loc>
     <lastmod>2018-09-10T14:46:06.629Z</lastmod>
     <data>
@@ -26,26 +46,6 @@
     
     
     
-    
-  <url>
-    <loc>https://smallbrave.github.io/2018/08/27/%E7%94%A8hexo%E5%92%8CGitHub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2018-08-27T09:24:29.012Z</lastmod>
-    <data>
-        <display>
-        <title>用hexo和GitHub搭建个人博客</title>
-        <pubTime>2018-08-27T07:29:33.000Z</pubTime>
-        
-        <tag>个人博客</tag>
-         
-         
-           
-             
-              <breadCrumb title="小技术" url="https://smallbrave.github.io/categories/%E5%B0%8F%E6%8A%80%E6%9C%AF/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>https://smallbrave.github.io/2018/08/24/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87blog/</loc>
